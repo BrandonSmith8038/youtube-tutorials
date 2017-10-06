@@ -2,3 +2,7 @@
     text-transform: uppercase;
     font-size: 30px;
 }
+
+img {
+    max-height: 180px;
+}
