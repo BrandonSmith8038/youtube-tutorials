@@ -1,5 +1,23 @@
-{{#each projects}}
-    <h1>{{first}}</h1>
-    <h1>{{Last}}</h1>
-    <h1>{{address}}</h1>
-{{/each}}
+<div class="container">
+    <div class="row">
+        {{#each projects}}
+
+        <div class="col s12 m6 l4">
+            <div class="card z-depth-4">
+                <div class="card-image">
+                    <img src="https://source.unsplash.com/user/erondu/1600x900">
+                    <span class="card-title">Card Title</span>
+                </div>
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a class="waves-effect waves-light btn btn-block blue-grey darken-1">View Project</a>
+                    <a class="waves-effect waves-light btn btn-block blue-grey darken-1">View Tutorial</a>
+                </div>
+            </div>
+        </div>
+
+        {{/each}}
+    </div>
+</div>

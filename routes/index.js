@@ -21,7 +21,6 @@ const projects = require("../projects.js")
 
 
 router.get('/', (req, res) => {
-    console.log(projects);
     res.render('index/home', projects);
 });
 

@@ -7,6 +7,30 @@ const myProjects = {
             "first": "Amber",
             "Last": "Cahill-Smith",
             "address": "16277 W. Jackson"
+	}, {
+            "first": "Amber",
+            "Last": "Cahill-Smith",
+            "address": "16277 W. Jackson"
+	}, {
+            "first": "Amber",
+            "Last": "Cahill-Smith",
+            "address": "16277 W. Jackson"
+	}, {
+            "first": "Amber",
+            "Last": "Cahill-Smith",
+            "address": "16277 W. Jackson"
+	}, {
+            "first": "Amber",
+            "Last": "Cahill-Smith",
+            "address": "16277 W. Jackson"
+	}, {
+            "first": "Amber",
+            "Last": "Cahill-Smith",
+            "address": "16277 W. Jackson"
+	}, {
+            "first": "Amber",
+            "Last": "Cahill-Smith",
+            "address": "16277 W. Jackson"
 	}
  ]
 }
