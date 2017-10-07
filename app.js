@@ -5,6 +5,8 @@ const path = require("path");
 const app = express();
 
 
+
+
 // Handlebars Middleware
 app.engine('handlebars', exphbs({
     defaultLayout: 'main'
@@ -15,11 +17,16 @@ app.set('view engine', 'handlebars');
 const index = require("./routes/index");
 
 
-//Set static folder
-app.use(express.static(path.join(__dirname, 'public')));
+
+
 
 //Use Routes
 app.use('/', index);
+
+//Set static folder
+app.use(express.static(path.join(__dirname, '/public')));
+app.use(express.static(path.join(__dirname, 'number-facts')));
+
 
 const port = process.env.PORT || 5000;
 
