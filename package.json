@@ -1,0 +1,25 @@
+{
+  "name": "brandons-projects",
+  "version": "1.0.0",
+  "description": "Portfolio of projects completed watching youtube tutorials and taking online courses.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandonSmith8038/youtube-tutorials.git"
+  },
+  "author": "Brandon Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BrandonSmith8038/youtube-tutorials/issues"
+  },
+  "homepage": "https://github.com/BrandonSmith8038/youtube-tutorials#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10",
+    "path": "^0.12.7"
+  }
+}

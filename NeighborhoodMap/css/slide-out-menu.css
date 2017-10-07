@@ -1,0 +1,83 @@
+.map {
+	background-color: pink;
+}
+
+.marker-list {
+	color: white;
+}
+
+#side-wrapper {
+	background-color: #2c3e50;
+	height: 100%;
+	opacity: 1;
+	overflow-y: scroll;
+	position: absolute;
+	transition: 0.6s;
+	width: 250px;
+	z-index: 1;
+}
+
+h1.neighborhood-title {
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 35px;
+	line-height: 40px;
+	margin: 0;
+	padding: 5px;
+}
+
+ul.sidebar-nav {
+	font-size: 20px;
+	list-style: none;
+	padding: 15px;
+	padding: 2px;
+}
+
+ul.sidebar-nav li {
+	border-top: 1px solid white;
+	cursor: pointer;
+	font-family: 'Bree Serif', serif;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+ul.sidebar-nav li:first-of-type {
+	border: none;
+	padding-top: 2px;
+}
+
+input#search-place {
+	background-color: #DCDCDC;
+	border-left: none;
+	border-radius: 2px 2px 2px 0;
+	border: 3px solid #ccc;
+	color: black;
+	font-family: 'Bree Serif', serif;
+	height: 37px;
+	outline: #fff;
+	text-transform: uppercase;
+	transition: 0.3s
+	width: 100%;
+}
+
+input#search-place:focus {
+    border: 3px solid #555;
+}
+
+#search-form {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.city-logo img {
+	display: block;
+	margin: auto;
+	max-width: 100px;
+}
+
+#fourSquare {
+	bottom: 0;
+	font-size: 10px;
+	margin-bottom: 60px;
+}
+
