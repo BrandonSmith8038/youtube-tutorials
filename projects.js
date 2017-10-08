@@ -15,7 +15,7 @@ const myProjects = {
             "projectName": "Number Facts",
             "screenShot": "/Screenshots/number-facts.PNG",
             "description": "lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20",
-            "projectLink": "/number-facts/",
+            "projectLink": "/projects/number-facts/",
             "courseLink": "https://www.youtube.com/watch?v=tUE2Nic21BA&t=7s"
 	}, {
             "first": "Amber",

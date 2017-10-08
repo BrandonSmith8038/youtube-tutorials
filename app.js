@@ -15,6 +15,7 @@ app.set('view engine', 'handlebars');
 
 //Load Routes
 const index = require("./routes/index");
+const projects = require("./routes/projects");
 
 
 
@@ -22,10 +23,11 @@ const index = require("./routes/index");
 
 //Use Routes
 app.use('/', index);
+app.use('/projects', projects);
 
 //Set static folder
 app.use(express.static(path.join(__dirname, '/public')));
-app.use(express.static(path.join(__dirname, 'number-facts')));
+app.use(express.static(path.join(__dirname, '/number-facts')));
 
 
 const port = process.env.PORT || 5000;
